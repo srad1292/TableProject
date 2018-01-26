@@ -1,0 +1,48 @@
+#basicDisplay, #tableHolder1, #tableHolder2 {
+	border: 2px solid black;
+	width:45%; 
+}
+
+table {
+	border-collapse: collapse;
+	empty-cells: hide;
+	width: 100%;
+}
+
+th, td{
+	border-left: 1px solid #99d6ff;
+	border-right: 1px solid #99d6ff;
+	padding-left: 5px;
+	padding-right: 5px;
+	letter-spacing: .25px;
+	text-shadow: white 0px 0px 10px;
+	font-size: 1.3em;
+}
+
+th {
+	background-color: #33adff;
+	background-color: rgb(51, 173, 255);
+	border: 1px solid black;
+	text-align: center;
+
+}
+
+td {
+	background-color: #99d6ff;
+	background-color: rgb(153, 214, 255);
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+tr:nth-child(even) td{
+	background-color: #99d6ff;
+}
+
+tr:nth-child(odd) td{
+	background-color: #33adff;
+}
+
+td:empty{
+	border:0;
+	background-color: white;
+}
